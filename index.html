@@ -2,9 +2,56 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=./portfolio.pdf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seo Donggyu Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      text-align: center;
+      background: white;
+      padding: 48px;
+      border-radius: 16px;
+      max-width: 560px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 24px;
+      background: #1677ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
+  <div class="card">
+    <h1>서동규 Portfolio</h1>
+    <p>AI · Computer Vision · Embedded · Backend</p>
+    <a href="./portfolio.pdf" target="_blank">
+      포트폴리오 PDF 보기
+    </a>
+  </div>
 </body>
 </html>
